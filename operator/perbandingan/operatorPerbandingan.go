@@ -1,0 +1,29 @@
+package main
+
+import "fmt"
+
+func main() {
+	angka1 := 5
+	angka2 := 5
+
+	lebihDari := angka1 > angka2
+	lebihDariSamaDengan := angka1 >= angka2
+
+	kurangDari := angka1 < angka2
+	kurangDariSamaDengan := angka1 <= angka2
+
+	samaDengan := angka1 == angka2
+
+	tidakSamaDengan := angka1 != angka2
+
+	fmt.Println("Lebih dari :", lebihDari)
+	fmt.Println("Lebih dari sama dengan :", lebihDariSamaDengan)
+
+	fmt.Println("Kurang dari :", kurangDari)
+	fmt.Println("Kurang dari sama dengan :", kurangDariSamaDengan)
+
+	fmt.Println("Sama dengan :", samaDengan)
+
+	fmt.Println("Tidak Sama dengan :", tidakSamaDengan)
+
+}
