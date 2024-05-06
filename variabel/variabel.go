@@ -3,11 +3,12 @@ package main
 import "fmt"
 
 func main() {
-	var name string
-	name = "Dimas Ramdani"
-	fmt.Println(name)
-	name = "Dikha adi nugraha"
-	fmt.Println(name)
+	var myName string = "Dimas Ramdani"
+	fmt.Println(myName)
+
+	var yourName string
+	yourName = "Dikha adi nugraha"
+	fmt.Println(yourName)
 
 	// contoh penulisan lain
 	// tanpa menuliskan type data apabila langsung di isi datanya
@@ -18,7 +19,7 @@ func main() {
 	hobby := "Menonton"
 	fmt.Println("Hobby saya", hobby)
 
-	// penulisan multipe variable
+	// penulisan multiple variable
 	var (
 		firstName = "Dimas"
 		lastName  = "Ramdani"
