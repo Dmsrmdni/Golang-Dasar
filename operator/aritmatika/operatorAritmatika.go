@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	angka1 := 8
+	angka1 := 10
 	angka2 := 5
 
 	fmt.Printf("angka 1 = %v dan angka 2 = %v\n", angka1, angka2)
@@ -24,7 +24,7 @@ func main() {
 	fmt.Println("Hasil Pembagian =", pembagian)
 
 	fmt.Println("Sisa Bagi")
-	modulus := (angka1 % 3)
+	modulus := (angka1 % 2)
 	fmt.Println("Hasil sisa pembagian 2 =", modulus)
 
 }

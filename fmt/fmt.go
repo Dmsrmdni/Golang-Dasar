@@ -3,25 +3,27 @@ package main
 import "fmt"
 
 func main() {
-	// var i int
 
-	// fmt.Print("masukan Nomber 1-10 :")
-	// fmt.Scan(&i)
-	// fmt.Println("Nomor Yang Anda Masukan", i)
+	// fmt.Print("Dimas Ramdani") //Dimas Ramdani
 
-	// var i, j int
+	// Akan Menghasilkan baris baru
+	fmt.Println("Dimas")
+	fmt.Println("Ramdani")
 
-	// fmt.Print("masukan Nomber 1-10 :")
-	// fmt.Scanln(&i, &j)
-	// fmt.Println("Nomor Yang Anda Masukan", i, "and", j)
+	nama := "Dimas Ramdani"
+	nilai := 80
 
-	var nama, kelas string
+	//Dengan format tertentu
+	// mengambil type data nama -> string
+	fmt.Printf("Type data nama : %T \n", nama)
+	fmt.Printf("Nama saya : %s \n", nama) //Dimas Ramdani
 
-	fmt.Print("Masukan Nama :")
-	fmt.Scanln(&nama)
+	// mengambil type data nilai -> int
+	fmt.Printf("Type data nilai : %T \n", nilai)
+	fmt.Printf("Nama saya : %d \n", nilai) //80
 
-	fmt.Print("Masukan Kelas :")
-	fmt.Scanln(&kelas)
-
-	fmt.Println("Nama Saya", nama, "kelas", kelas)
+	var umur int
+	fmt.Print("masukan Umur :")
+	fmt.Scan(&umur)
+	fmt.Println("Umur anda", umur)
 }

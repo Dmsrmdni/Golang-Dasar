@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	hari := "ss"
+	hari := "senin"
 
 	switch hari {
 	case "senin":
@@ -24,13 +24,14 @@ func main() {
 		fmt.Println("tidak valid")
 	}
 
-	length := len(hari)
+	nilai := 80
+	// kondisi di switch tidak wajib, bisa menambahkan pada case nya
 	switch {
-	case length > 10:
-		fmt.Println("Nama Terlalu Panjang")
-	case length > 5:
-		fmt.Println("Nama Terlalu Panjang")
+	case nilai >= 80:
+		fmt.Println("Grade A")
+	case nilai >= 70:
+		fmt.Println("Grade B")
 	default:
-		fmt.Println("Nama Sudah Benar")
+		fmt.Println("Grade C")
 	}
 }

@@ -3,6 +3,14 @@ package main
 import "fmt"
 
 func main() {
+	numb := 1
+
+	for numb <= 10 {
+		fmt.Println("No ke = ", numb)
+		numb++
+	}
+
+	// short statement
 	for angka := 1; angka <= 10; angka++ {
 		fmt.Printf("nilai sekarang adalah %v \n", angka)
 	}

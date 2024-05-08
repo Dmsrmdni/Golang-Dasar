@@ -12,9 +12,9 @@ func main() {
 	dan := lulusMapel1 && lulusMapel2
 	atau := lulusMapel1 || lulusMapel2
 
-	fmt.Println(dan)
-	fmt.Println(!dan)
-	fmt.Println(atau)
-	fmt.Println(!atau)
+	fmt.Println(dan)   //false
+	fmt.Println(!dan)  //true
+	fmt.Println(atau)  //true
+	fmt.Println(!atau) //false
 
 }

@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	rataRata := 50
+	rataRata := 85
 	var grade string
 
 	if rataRata >= 90 {
@@ -16,11 +16,12 @@ func main() {
 		grade = "Grade D"
 	}
 
-	fmt.Println(grade)
+	fmt.Println(grade) //Grade B
 
-	if length := len("Dimas Ramdani"); length > 5 {
-		fmt.Println("sudah mantap")
+	// short statement
+	if nilai := 90; nilai > 70 {
+		fmt.Println("Kamu Lulus")
 	} else {
-		fmt.Println("nama anda terlalu pendek")
+		fmt.Println("Tidak Lulus")
 	}
 }

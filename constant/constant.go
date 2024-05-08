@@ -18,4 +18,8 @@ func main() {
 	)
 
 	fmt.Println("Umur Saya :", umur, "Hobby saya :", hobby)
+
+	const satu, dua = 1, 2
+
+	fmt.Println(satu, dua)
 }

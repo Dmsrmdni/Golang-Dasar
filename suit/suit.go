@@ -8,13 +8,13 @@ import (
 func main() {
 	var player, computer, hasil string
 
-	randomNumber := rand.Intn(10 - 0)
+	randomNumber := rand.Intn(3) + 1
 
-	if randomNumber <= 3 {
+	if randomNumber == 1 {
 		computer = "batu"
-	} else if randomNumber <= 7 {
+	} else if randomNumber == 2 {
 		computer = "gunting"
-	} else if randomNumber <= 10 {
+	} else if randomNumber == 3 {
 		computer = "kertas"
 	}
 

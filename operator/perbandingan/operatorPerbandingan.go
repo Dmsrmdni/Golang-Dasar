@@ -16,14 +16,14 @@ func main() {
 
 	tidakSamaDengan := angka1 != angka2
 
-	fmt.Println("Lebih dari :", lebihDari)
-	fmt.Println("Lebih dari sama dengan :", lebihDariSamaDengan)
+	fmt.Println("Lebih dari :", lebihDari)                       //false
+	fmt.Println("Lebih dari sama dengan :", lebihDariSamaDengan) //true
 
-	fmt.Println("Kurang dari :", kurangDari)
-	fmt.Println("Kurang dari sama dengan :", kurangDariSamaDengan)
+	fmt.Println("Kurang dari :", kurangDari)                       //false
+	fmt.Println("Kurang dari sama dengan :", kurangDariSamaDengan) //true
 
-	fmt.Println("Sama dengan :", samaDengan)
+	fmt.Println("Sama dengan :", samaDengan) //true
 
-	fmt.Println("Tidak Sama dengan :", tidakSamaDengan)
+	fmt.Println("Tidak Sama dengan :", tidakSamaDengan) //false
 
 }

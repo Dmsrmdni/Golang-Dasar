@@ -4,6 +4,9 @@ import "fmt"
 
 func main() {
 
-	fmt.Println("benar =", true)
-	fmt.Println("salah =", false)
+	var isTrue bool = true
+	var isFalse bool = false
+
+	fmt.Println("benar =", isTrue)
+	fmt.Println("salah =", isFalse)
 }
