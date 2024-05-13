@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	// fmt.Print("Dimas Ramdani") //Dimas Ramdani
+	fmt.Print("Dimas Ramdani \n") //Dimas Ramdani
 
 	// Akan Menghasilkan baris baru
 	fmt.Println("Dimas")
@@ -12,6 +12,7 @@ func main() {
 
 	nama := "Dimas Ramdani"
 	nilai := 80
+	number := 2.35712
 
 	//Dengan format tertentu
 	// mengambil type data nama -> string
@@ -21,6 +22,8 @@ func main() {
 	// mengambil type data nilai -> int
 	fmt.Printf("Type data nilai : %T \n", nilai)
 	fmt.Printf("Nama saya : %d \n", nilai) //80
+
+	fmt.Printf("Nama saya : %.3f \n", number) //80
 
 	var umur int
 	fmt.Print("masukan Umur :")
